@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Vo — Pawn · Academic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">My Vo</a>
+    <div class="hamburger" onclick="toggleNav()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html"                     >About Me</a></li>
+      <li><a href="projects.html"                  >My Resume</a></li>
+      <li class="nav-dropdown">
+        <a href="journey.html" class="active">My Journey</a>
+        <ul class="dropdown-menu">
+          <li><a href="pawn.html">♟ Pawn · Academic</a></li>
+          <li><a href="knight.html">♞ Knight · Research</a></li>
+          <li><a href="bishop.html">♝ Bishop · Communication</a></li>
+          <li><a href="rook.html">♜ Rook · Leadership</a></li>
+          <li><a href="queen.html">♛ Queen · Impact</a></li>
+        </ul>
+      </li>
+      <li><a href="aspiration.html"                >My Aspiration</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page">
+
+  <a href="journey.html" class="back-link">← My Journey</a>
+
+  <!-- HERO -->
+  <div class="piece-hero">
+    <div class="piece-icon-wrap">♟</div>
+    <div>
+      <span class="label">Pawn · Academic</span>
+      <h2>Always Moving Forward,<br>One Step at a Time</h2>
+      <p class="piece-intro-text">
+        Like a pawn that always moves forward one step at a time, I give my best to every
+        goal I pursue and always strive to move one step further.
+      </p>
+    </div>
+  </div>
+
+  <!-- ACADEMIC HIGHLIGHTS -->
+  <div class="story-block">
+    <span class="label">Academic Highlights</span>
+    <div class="stats-row">
+      <div class="stat-box">
+        <p class="stat-label">GPA</p>
+        <p class="stat-value">9.9</p>
+        <p class="stat-denom">out of 10</p>
+      </div>
+      <div class="stat-box">
+        <p class="stat-label">SAT</p>
+        <p class="stat-value">1580</p>
+        <p class="stat-denom">out of 1600</p>
+      </div>
+      <div class="stat-box">
+        <p class="stat-label">IELTS</p>
+        <p class="stat-value">8.5</p>
+        <p class="stat-denom">out of 9.0</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SAT STORY -->
+  <div class="story-block">
+    <span class="label">My Journey to 1580</span>
+    <p>Preparing for the SAT was one of the most disciplined chapters of my high school
+    years. Over nearly a year, I devoted an entire summer and countless hours to solving
+    problems, analysing every mistake, and understanding why I made them. My first two
+    attempts resulted in 1450 and 1540, but I knew I had not yet reached my potential.
+    I took the test one final time and achieved a 1580.</p>
+    <p>More than the score itself, the journey taught me that meaningful growth comes from
+    patience, reflection, and the willingness to learn from every attempt.</p>
+  </div>
+
+  <!-- ECONOMICS STORY -->
+  <div class="story-block">
+    <span class="label">Second Prize — City-level Excellent Students Competition<br>in Law and Economics (11th and 12th)</span>
+    <p>While Economics and Legal Education was a subject often overlooked by those around
+    me, I was drawn to it because it connected business, economics, and law in ways that
+    felt practical and relevant to everyday life. Driven by curiosity, I explored the
+    subject far beyond the curriculum throughout Grades 11 and 12, developing a deeper
+    understanding of how markets operate, how businesses create value, and how public
+    policy shapes society.</p>
+    <p>It was also the first time I began to see business not only as a driver of economic
+    growth, but also as a powerful tool for creating social impact — an idea that would
+    later shape my aspiration to build a sustainable social enterprise.</p>
+  </div>
+
+  <!-- REFLECTION -->
+  <div class="story-block">
+    <blockquote>
+      <p>Upon reflection, grades or awards were never the destination of my learning
+      journey. Instead, they became the foundation that inspired me to ask bigger
+      questions, apply knowledge to solve real-world challenges, and eventually take
+      my first step into research.</p>
+    </blockquote>
+
+    <a href="knight.html" class="research-link">
+      <span class="rook-icon">♞</span>
+      View my research here
+    </a>
+  </div>
+
+  <!-- PIECES NAV -->
+  <div class="pieces-nav">
+    <span class="label">Get to Know Me Through the Pieces</span>
+    <h3>Every piece has a purpose.</h3>
+    <p class="pieces-hint">Click each piece to discover its story.</p>
+    <div class="pieces-grid">
+      <a href="pawn.html" class="piece-card active">
+        <span class="piece-symbol">♟</span>
+        <span class="piece-name">Pawn</span>
+        <span class="piece-trait">Academic</span>
+      </a>
+      <a href="knight.html" class="piece-card">
+        <span class="piece-symbol">♞</span>
+        <span class="piece-name">Knight</span>
+        <span class="piece-trait">Research</span>
+      </a>
+      <a href="bishop.html" class="piece-card">
+        <span class="piece-symbol">♝</span>
+        <span class="piece-name">Bishop</span>
+        <span class="piece-trait">Communication</span>
+      </a>
+      <a href="rook.html" class="piece-card">
+        <span class="piece-symbol">♜</span>
+        <span class="piece-name">Rook</span>
+        <span class="piece-trait">Leadership</span>
+      </a>
+      <a href="queen.html" class="piece-card">
+        <span class="piece-symbol">♛</span>
+        <span class="piece-name">Queen</span>
+        <span class="piece-trait">Impact</span>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2025 Võ Đình Khải My &nbsp;·&nbsp; Built with care.</p>
+</footer>
+
+<script>
+  function toggleNav() { document.getElementById('navLinks').classList.toggle('open'); }
+</script>
+</body>
+</html>
